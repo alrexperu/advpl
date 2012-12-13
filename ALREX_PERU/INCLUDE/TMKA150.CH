@@ -1,0 +1,40 @@
+#IFDEF SPANISH
+         #define STR0001  "Busca   "
+         #define STR0002  "Borrar Fact/Presp"
+         #define STR0003  "¨Cu nto al Borrar? "
+         #define STR0004  "Presupuesto:"
+         #define STR0005  "Factura:    "
+         #define STR0006  "Cliente:"
+         #define STR0007  "Vendedor:"
+         #define STR0008  "Total de Mercader¡as:"
+         #define STR0009  "Descuento:"
+         #define STR0010  "Neto:   "
+         #define STR0011  "Validez: "
+#ELSE
+   #IFDEF ENGLISH
+         #define STR0001  "Pesquisa"
+         #define STR0002  "Exclus„o NF/Orc."
+         #define STR0003  "Confirma Exclus„o ?"
+         #define STR0004  "Or‡amento:"
+         #define STR0005  "Nota Fiscal:"
+         #define STR0006  "Cliente:"
+         #define STR0007  "Vendedor:"
+         #define STR0008  "Total de Mercadorias:"
+         #define STR0009  "Desconto:"
+         #define STR0010  "L¡quido:"
+         #define STR0011  "Validade:"
+
+   #ELSE
+         #define STR0001  "Pesquisa"
+         #define STR0002  "Exclus„o NF/Orc."
+         #define STR0003  "Confirma Exclus„o ?"
+         #define STR0004  "Or‡amento:"
+         #define STR0005  "Nota Fiscal:"
+         #define STR0006  "Cliente:"
+         #define STR0007  "Vendedor:"
+         #define STR0008  "Total de Mercadorias:"
+         #define STR0009  "Desconto:"
+         #define STR0010  "L¡quido:"
+         #define STR0011  "Validade:"
+   #ENDIF
+#ENDIF

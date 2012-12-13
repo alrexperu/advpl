@@ -1,0 +1,9 @@
+#define OLECREATELINK  400
+#define OLECLOSELINK   401
+#define OLEOPENFILE    403
+#define OLESAVEASFILE  405
+#define OLECLOSEFILE   406
+#define OLESETPROPERTY 412
+#define OLEWDVISIBLE   "206"
+#define WDFORMATTEXT   "2" 
+#define WDFORMATPDF    "17" // Formato PDF

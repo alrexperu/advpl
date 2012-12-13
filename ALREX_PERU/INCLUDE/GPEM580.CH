@@ -1,0 +1,36 @@
+#IFDEF SPANISH
+         #define STR0001  "Informe de Remuneraci¢n"
+         #define STR0002  "Ser  impreso de acuerdo con los par metros solicitados por"
+         #define STR0003  "el usuario."
+         #define STR0004  "Matr¡cula"
+         #define STR0005  "C.G.C."
+         #define STR0006  "Blanco"
+         #define STR0007  "Administraci¢n"
+         #define STR0008  " RELACION DEL INFORME REMUNERACION"
+         #define STR0009  "C¢digo no Registrado Tabla 37                         "
+         #define STR0010  "C¢digo no Registrado Tabla 37                         "
+#ELSE
+   #IFDEF ENGLISH
+         #define STR0001  "Revenue Inform  "
+         #define STR0002  "Will be printed according to parameters requested by the  "
+         #define STR0003  "User.   "
+         #define STR0004  "Registrat"
+         #define STR0005  "Fed.Tx.Reg"
+         #define STR0006  "White "
+         #define STR0007  "Management   "
+         #define STR0008  " STATEMENT ON REVENUE REPORT  "
+         #define STR0009  "Code not Registered Table    37                       "
+         #define STR0010  "Code not registered table    37                       "
+   #ELSE
+         #define STR0001  "Informe de Rendimentos"
+         #define STR0002  "Ser  impresso de acordo com os parametros solicitados pelo"
+         #define STR0003  "usuario."
+         #define STR0004  "Matricula"
+         #define STR0005  "C.G.C."
+         #define STR0006  "Branco"
+         #define STR0007  "Administra‡„o"
+         #define STR0008  " RELA€ŽO DO INFORME RENDIMENTO "
+         #define STR0009  "Codigo nao Cadastrado Tabela 37                       "
+         #define STR0010  "Codigo nao Cadastrado Tabela 37                       "
+   #ENDIF
+#ENDIF

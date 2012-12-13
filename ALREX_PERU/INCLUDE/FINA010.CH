@@ -1,0 +1,36 @@
+#IFDEF SPANISH
+   #define STR0001  "bUscar    "
+   #define STR0002  "Visualizar"
+   #define STR0003  "Incluir"
+   #define STR0004  "Modificar"
+   #define STR0005  "Borrar "
+   #define STR0006  "Actualizaci¢n de Modalidades"
+   #define STR0007  "Salir"
+   #define STR0008  "Confirma"
+   #define STR0009  "¨Cu nto al Borrar?     "
+   #define STR0010  "Modalidades"
+#ELSE
+   #IFDEF ENGLISH
+        #define STR0001  "Search"
+        #define STR0002  "View"
+        #define STR0003  "Insert "
+        #define STR0004  "Edit  "
+        #define STR0005  "Delete "
+        #define STR0006  "Updating Class"
+        #define STR0007  "Cancel "
+        #define STR0008  "OK     "
+        #define STR0009  "About Deleting? "
+        #define STR0010  "Class"   
+   #ELSE
+        #define STR0001  "Pesquisar"
+        #define STR0002  "Visualizar"
+        #define STR0003  "Incluir"
+        #define STR0004  "Alterar"
+        #define STR0005  "Excluir"
+        #define STR0006  "Atualiza‡„o de Naturezas"
+        #define STR0007  "Abandona"
+        #define STR0008  "Confirma"
+        #define STR0009  "Quanto … exclus„o?"
+        #define STR0010  "Naturezas"
+   #ENDIF
+#ENDIF

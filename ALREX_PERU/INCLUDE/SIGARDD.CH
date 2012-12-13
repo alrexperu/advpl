@@ -1,0 +1,40 @@
+#IFDEF SPANISH
+   #define STR0001  " no encontrado"
+   #define STR0002  " Archivo "
+   #define STR0003  " Exclusivo"
+   #define STR0004  "Creando Öndice "
+   #define STR0005  " ... Aguarde..."
+   #define STR0006  "Creando Öndice..."
+   #define STR0007  "­Falla en Conexi¢n AS400!"
+   #define STR0008  "Archivo ADV97.INI no encontrado"
+   #define STR0009  "Ajuste el Contype del ADV97.INI"
+   #define STR0010  "Erro en la Configuracion del archivo ADV97.INI"
+   #define STR0011  "Falla Conexi¢n TOPCONN"
+
+#ELSE
+   #IFDEF ENGLISH
+         #define STR0001  " not found"
+         #define STR0002  " File "
+         #define STR0003  " Exclusive"
+         #define STR0004  "Building Index"
+         #define STR0005  " ... Wait...  "
+         #define STR0006  "Building File..."
+         #define STR0007  "Failure Connection AS400!"
+         #define STR0008  "File ADV97.INI not found"
+         #define STR0009  "Adjust the Contype of ADV97.INI"
+         #define STR0010  "Error in Configuration of file ADV97.INI"
+         #define STR0011  "Failure Connection TOPCONN"
+   #ELSE
+         #define STR0001  " n†o encontrado"
+         #define STR0002  " Arquivo "
+         #define STR0003  " Exclusivo"
+         #define STR0004  "Criando Indice "
+         #define STR0005  " ... Aguarde..."
+         #define STR0006  "Criando Indice..."
+         #define STR0007  "Falha Conex„o AS400!"
+         #define STR0008  "Arquivo ADV97.INI n„o encontrado"
+         #define STR0009  "Ajuste o Contype do ADV97.INI"
+         #define STR0010  "Erro na Configura‡„o do arquivo ADV97.INI"
+         #define STR0011  "Falha Conex„o TOPCONN"
+   #ENDIF
+#ENDIF

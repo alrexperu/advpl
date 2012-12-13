@@ -1,0 +1,36 @@
+#IFDEF SPANISH
+   #define STR0001  "Prorrat.Off-Line"
+   #define STR0002  "Confirma"
+   #define STR0003  "Retipea "
+   #define STR0004  "Abandona"
+   #define STR0005  "El objetivo de este programa es efectuar los asientos referentes a los"
+   #define STR0006  "prorrateos off-line pr‚ registrados. Podr  ser usado para proratear los"
+   #define STR0007  "gastos de los centros de costos no poductivos en los productivos.Se debe"
+   #define STR0008  "informar la fecha de referencia del per¡odo, el n£mero del lote, c¢digo"
+   #define STR0009  "del historial est ndar y cuales monedas genera los asientos contables."
+   #define STR0010  "Presione cualquier tecla para continuar."
+#ELSE
+	#IFDEF ENGLISH
+		#define STR0001  "Rateios Off-Line"
+		#define STR0002  "Confirma"
+		#define STR0003  "Redigita"
+		#define STR0004  "Abandona"
+		#define STR0005  " Este programa tem o objetivo de efetuar os lan‡amentos referentes aos"
+		#define STR0006  "rateios off line pr‚-cadastrados. Poder  ser utilizado para ratear  as"
+		#define STR0007  "despesas dos centros de custos improdutivos nos produtivos. Dever  ser"
+		#define STR0008  "informada a data de referˆncia do per¡odo, o n£mero do lote,  c¢d.  do"
+		#define STR0009  "hist¢rico padr„o e quais moedas gerar„o os lan‡amentos cont beis."
+		#define STR0010  "Pressione qualquer tecla para continuar."	
+	#ELSE
+		#define STR0001  "Rateios Off-Line"
+		#define STR0002  "Confirma"
+		#define STR0003  "Redigita"
+		#define STR0004  "Abandona"
+		#define STR0005  " Este programa tem o objetivo de efetuar os lan‡amentos referentes aos"
+		#define STR0006  "rateios off line pr‚-cadastrados. Poder  ser utilizado para ratear  as"
+		#define STR0007  "despesas dos centros de custos improdutivos nos produtivos. Dever  ser"
+		#define STR0008  "informada a data de referˆncia do per¡odo, o n£mero do lote,  c¢d.  do"
+		#define STR0009  "hist¢rico padr„o e quais moedas gerar„o os lan‡amentos cont beis."
+		#define STR0010  "Pressione qualquer tecla para continuar."	
+	#ENDIF
+#ENDIF

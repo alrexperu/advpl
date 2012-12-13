@@ -1,0 +1,36 @@
+#IFDEF SPANISH
+         #define STR0001  "Confirma"
+         #define STR0002  "Retipea "
+         #define STR0003  "Salir   "
+         #define STR0004  "B&uscar  "
+         #define STR0005  "Visualizar"
+         #define STR0006  "Incluir"
+         #define STR0007  "Modificar"
+         #define STR0008  "Borrar "
+         #define STR0009  "Skip-Teste por Grupo"
+         #define STR0010  "Grupo no tiene Productos Associados"
+#ELSE
+   #IFDEF ENGLISH
+         #define STR0001  "Confirma"
+         #define STR0002  "Redigita"
+         #define STR0003  "Abandona"
+         #define STR0004  "Pesquisar"
+         #define STR0005  "Visualizar"
+         #define STR0006  "Incluir"
+         #define STR0007  "Alterar"
+         #define STR0008  "Excluir"
+         #define STR0009  "Skip-Teste por Grupo"
+         #define STR0010  "Grupo n„o tem Produtos associados"
+   #ELSE
+         #define STR0001  "Confirma"
+         #define STR0002  "Redigita"
+         #define STR0003  "Abandona"
+         #define STR0004  "Pesquisar"
+         #define STR0005  "Visualizar"
+         #define STR0006  "Incluir"
+         #define STR0007  "Alterar"
+         #define STR0008  "Excluir"
+         #define STR0009  "Skip-Teste por Grupo"
+         #define STR0010  "Grupo n„o tem Produtos associados"
+   #ENDIF
+#ENDIF

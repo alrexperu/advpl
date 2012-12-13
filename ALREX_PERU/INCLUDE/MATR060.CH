@@ -1,0 +1,36 @@
+#IFDEF SPANISH
+         #define STR0001  "Relaci¢n de Transportadoras"
+         #define STR0002  "Emisi¢n del Registro de Transportadoras"
+         #define STR0003  "Imprimir  los datos de las transportadoras"
+         #define STR0004  "de acuerdo con la configuraci¢n del usuario."
+         #define STR0005  " "
+         #define STR0006  "Administraci¢n"
+         #define STR0007  "RELACION COMPLETA DEL REGISTRO DE TRANSPORTADORAS"
+         #define STR0008  " Por C¢digo        "
+         #define STR0009  " Alfab‚tica        "
+         #define STR0010  " Por CUIT          "
+#ELSE
+   #IFDEF ENGLISH
+         #define STR0001  "List of Curriers         "
+         #define STR0002  "Issue of Register of Curriers         "
+         #define STR0003  "Will print  the data of curriers        "
+         #define STR0004  "according to the user's configuration.  "
+         #define STR0005  "Z.Form "
+         #define STR0006  "Management   "
+         #define STR0007  "COMPLETE LIST OF THE REGISTER OF CURRIERS       "
+         #define STR0008  " Per Code           "
+         #define STR0009  " Alphabetical       "
+         #define STR0010  " Per Fed.Tax Registr."
+   #ELSE
+         #define STR0001  "Relacao de Transportadoras"
+         #define STR0002  "Emissao do Cadastro de Transportadoras"
+         #define STR0003  "Ira imprimir os dados das transportadoras"
+         #define STR0004  "de acordo com a configuracao do usuario."
+         #define STR0005  "Zebrado"
+         #define STR0006  "Administracao"
+         #define STR0007  "RELACAO COMPLETA DO CADASTRO DE TRANSPORTADORAS"
+         #define STR0008  " Por Codigo         "
+         #define STR0009  " Alfabetica         "
+         #define STR0010  " Por CGC           "
+   #ENDIF
+#ENDIF

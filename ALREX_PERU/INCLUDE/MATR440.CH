@@ -1,0 +1,36 @@
+#IFDEF SPANISH
+         #define STR0001  "Emite una relaci¢n con los °tems en stock que llegaron al Punto de"
+         #define STR0002  "Pedido, sugeriendo la cantidad a comprar."
+         #define STR0003  "  "
+         #define STR0004  "Administraci¢n"
+         #define STR0005  "÷tems en Punto de Pedido"
+         #define STR0006  "PRODUCTO(S)"
+         #define STR0007  "C‡DIGO          DESCRIPCI‡N                    TP GRP  UM SALDO ACTUAL     PUNTO DE     STOCK DE         LOTE ___TOLERANCIA___     CANTIDAD   CANTIDAD A   VALOR ESTIMADO BASE FECHA DE   VALOR UNITARIO     PLAZO DE"
+         #define STR0008  "                                                                             PEDIDO    SEGUIRDAD    ECON‡MICO   %     CANTIDAD   POR EMBAL.      COMPRAR     DE LA COMPRA      REFERENC     DE LA COMPRA      ENTREGA"
+         #define STR0009  "CANCELADO POR EL OPERADOR"
+         #define STR0010  "TOTAL GENERAL A COMPRAR"
+#ELSE
+   #IFDEF ENGLISH
+         #define STR0001  "Issues a list about the Stock items that have reached the Order   "
+         #define STR0002  "Point, suggesting the quantity to purchase"
+         #define STR0003  "Z.Form "
+         #define STR0004  "Management   "
+         #define STR0005  "Items in Order Point   "
+         #define STR0006  "PRODUCT(S)"
+         #define STR0007  "CODE            DESCRIPT.                      KD GRP  SU  CURR.BALANCE    ORDER      SECURITY        ECONOMIC___TOLERANCE ___   QUANTITY   QUANTITY TO    VALUE  ESTIMAT BASE  DATE OF   UNIT VALUE OF      DELIVERY"
+         #define STR0008  "                                                                             POINT    STOCK               LOT  %   QUANTITY      PER PACKAGE   PURCHASE     OF PURCHASE         REFERENC        PURCHASE       TERM    "
+         #define STR0009  "CANCELLED BY OPERATOR  "
+         #define STR0010  "TOTAL GENERAL TO PURCHASE"
+   #ELSE
+         #define STR0001  "Emite uma relacao com os itens em estoque que atingiram o Ponto de"
+         #define STR0002  "Pedido ,sugerimdo a quantidade a comprar."
+         #define STR0003  "Zebrado"
+         #define STR0004  "Administracao"
+         #define STR0005  "Itens em Ponto de Pedido"
+         #define STR0006  "PRODUTO(S)"
+         #define STR0007  "CODIGO          DESCRICAO                      TP GRP  UM  SALDO ATUAL     PONTO DE   ESTOQUE DE         LOTE ___TOLERANCIA___   QUANTIDADE QUANTIDADE A   VALOR ESTIMADO BASE  DATA DE   VALOR UNITARIO     PRAZO DE"
+         #define STR0008  "                                                                             PEDIDO    SEGURANCA    ECONOMICO   %   QUANTIDADE   POR EMBAL.      COMPRAR        DA COMPRA      REFERENC        DA COMPRA      ENTREGA"
+         #define STR0009  "CANCELADO PELO OPERADOR"
+         #define STR0010  "TOTAL GERAL A COMPRAR"
+   #ENDIF
+#ENDIF

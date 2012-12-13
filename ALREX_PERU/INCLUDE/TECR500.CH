@@ -1,0 +1,40 @@
+#IFDEF SPANISH
+   #define STR0001  "Agenda del TÇcnico"
+   #define STR0002  "    Este programa emite la agenda de tÇcnicos, conforme"
+   #define STR0003  "los par†metros solicitados."
+   #define STR0004  ""
+   #define STR0005  "A Rayas"
+   #define STR0006  "Administraci¢n"
+   #define STR0007  "TêCNICO                               CLIENTE                                            HORARIO"
+   #define STR0008  "C‡DIGO NOMBRE                         C‡DIGO    NOMBRE                                   FCH.INICIAL HORA   FCH.FINAL HORA     TOTAL"
+   #define STR0009  "CANCELADO POR OPERADOR"
+   #define STR0010  "TOTAL DE TêCNICO: "
+   #define STR0011  "TOTAL GRAL. "
+#ELSE
+   #IFDEF ENGLISH
+      #define STR0001  "Agenda of Technician"
+      #define STR0002  "   This program will issue a Agenda of Technicians, based"
+      #define STR0003  "on parameters selected.   "
+      #define STR0004  ""
+      #define STR0005  "Z.Form "
+      #define STR0006  "Management   "
+      #define STR0007  "TECHNICIAN                            CUSTOMER                                           TIME   "
+      #define STR0008  "CODE   NAME                           CODE      NAME                                     BEG.DATE    HOUR   END DATE  HOUR     TOTAL"
+      #define STR0009  "CANCELLED BY OPERATOR  "
+      #define STR0010  "TOTAL OF TECHNIC.:"
+      #define STR0011  "GEN. TOTAL  "
+   #ELSE
+      #define STR0001  "Agenda do Tecnico"
+      #define STR0002  "    Este programa emite a agenda dos tecnicos, conforme"
+      #define STR0003  "os parametros solicitados."
+      #define STR0004  ""
+      #define STR0005  "Zebrado"
+      #define STR0006  "Administracao"
+      #define STR0007  "TECNICO                               CLINTE                                             HORARIO"
+      #define STR0008  "CODIGO NOME                           CODIGO    NOME                                     DT.INICIAL  HORA   DT.FINAL  HORA     TOTAL"
+      #define STR0009  "CANCELADO PELO OPERADOR"
+      #define STR0010  "TOTAL DO TECNICO: "
+      #define STR0011  "TOTAL GERAL "
+   #ENDIF
+#ENDIF
+

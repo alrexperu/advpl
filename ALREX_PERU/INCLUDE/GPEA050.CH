@@ -1,0 +1,36 @@
+#IFDEF SPANISH
+   #define STR0001  "Salir"
+   #define STR0002  "Confirma"
+   #define STR0003  "Retipea"
+   #define STR0004  "B&uscar"
+   #define STR0005  "Visualizar"
+   #define STR0006  "Actualizar"
+   #define STR0007  "Borrar"
+   #define STR0008  " Provisiones "
+   #define STR0009  "Archivo de Provisiones"
+   #define STR0010  "¨Cu nto al Borrar?"
+#ELSE
+   #IFDEF ENGLISH
+           #define STR0001  "Quit    "
+           #define STR0002  "O.K.    "
+           #define STR0003  "Retype  "
+           #define STR0004  "Search   "
+           #define STR0005  "View      "
+           #define STR0006  "Update   "
+           #define STR0007  "Delete "
+           #define STR0008  " Provisions"
+           #define STR0009  "Register of Provisions"
+           #define STR0010  "About deleting   ?"
+   #ELSE
+	   #define STR0001  "Abandona"
+	   #define STR0002  "Confirma"
+	   #define STR0003  "Redigita"
+   	#define STR0004  "Pesquisar"
+	   #define STR0005  "Visualizar"
+	   #define STR0006  "Atualizar"
+	   #define STR0007  "Excluir"
+	   #define STR0008  " Provis”es "
+	   #define STR0009  "Cadastro de Provis”es"
+	   #define STR0010  "Quanto … exclus„o?"
+   #ENDIF
+#ENDIF

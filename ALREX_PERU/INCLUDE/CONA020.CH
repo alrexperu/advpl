@@ -1,0 +1,36 @@
+#IFDEF SPANISH
+   #define STR0001  "bUscar    "
+   #define STR0002  "Visualizar"
+   #define STR0003  "Incluir"
+   #define STR0004  "Modificar"
+   #define STR0005  "Borrar "
+   #define STR0006  "Plan de Cuentas  "
+   #define STR0007  "Plan de Cuentas"
+   #define STR0008  "Abandona"
+   #define STR0009  "Confirma"
+   #define STR0010  "¨Cu nto al Borrar?     "
+#ELSE
+	#IFDEF ENGLISH
+           #define STR0001  "Search   "
+           #define STR0002  "View     "
+           #define STR0003  "Insert "
+           #define STR0004  "Edit   "
+           #define STR0005  "Delete "
+           #define STR0006  "List of Accounts"
+           #define STR0007  "Accounts Plan "
+           #define STR0008  "Quit    "
+           #define STR0009  "O.K.    "
+           #define STR0010  "About Deleting?   "
+	#ELSE
+   	#define STR0001  "Pesquisar"
+	   #define STR0002  "Visualizar"
+	   #define STR0003  "Incluir"
+	   #define STR0004  "Alterar"
+	   #define STR0005  "Excluir"
+	   #define STR0006  "Elenco de Contas"
+	   #define STR0007  "Plano de Contas"
+	   #define STR0008  "Abandona"
+	   #define STR0009  "Confirma"
+	   #define STR0010  "Quanto … exclus„o?"
+	#ENDIF
+#ENDIF

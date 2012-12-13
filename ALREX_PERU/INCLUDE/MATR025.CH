@@ -1,0 +1,36 @@
+#IFDEF SPANISH
+   #define STR0001  "Relaci¢n de las Sugerencias de Presupuestos"
+   #define STR0002  "Este informe imprimir  la relaci¢n de las Sugerencias"
+   #define STR0003  "de Venta de acuerdo con los par metros solicitados.  "
+   #define STR0004  " "
+   #define STR0005  "Administraci¢n"
+   #define STR0006  "PRODUCTO                                        GENERAR           COMPONENTE"
+   #define STR0007  "CODIGO          DESCRIPCION                     PV  OP  OP.IT RES IT CODIGO          DESCRIPCION                            CANTIDAD"
+   #define STR0008  "CANCELADO POR EL OPERADOR"
+   #define STR0009  "S¡"
+   #define STR0010  "No"
+#ELSE
+   #IFDEF ENGLISH
+      #define STR0001  "Rela‡„o das Sugest”es de Or‡amentos"
+      #define STR0002  "Este relatorio ir  imprimir a rela‡„o das Sugest”es"
+      #define STR0003  "de Venda conforme os parametros solicitados.       "
+      #define STR0004  "Zebrado"
+      #define STR0005  "Administracao"
+      #define STR0006  "PRODUTO                                         GERAR             COMPONENTE"
+      #define STR0007  "CODIGO          DESCRICAO                       PV  OP  OP.IT EMP IT CODIGO          DESCRICAO                            QUANTIDADE"
+      #define STR0008  "CANCELADO PELO OPERADOR"
+      #define STR0009  "Sim"
+      #define STR0010  "Nao"
+   #ELSE
+      #define STR0001  "Rela‡„o das Sugest”es de Or‡amentos"
+      #define STR0002  "Este relatorio ir  imprimir a rela‡„o das Sugest”es"
+      #define STR0003  "de Venda conforme os parametros solicitados.       "
+      #define STR0004  "Zebrado"
+      #define STR0005  "Administracao"
+      #define STR0006  "PRODUTO                                         GERAR             COMPONENTE"
+      #define STR0007  "CODIGO          DESCRICAO                       PV  OP  OP.IT EMP IT CODIGO          DESCRICAO                            QUANTIDADE"
+      #define STR0008  "CANCELADO PELO OPERADOR"
+      #define STR0009  "Sim"
+      #define STR0010  "Nao"
+   #ENDIF
+#ENDIF

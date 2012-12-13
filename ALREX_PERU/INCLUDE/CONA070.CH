@@ -1,0 +1,36 @@
+#IFDEF SPANISH
+   #define STR0001  "Actualizaci¢n de Sint‚ticas"
+   #define STR0002  "Confirma"
+   #define STR0003  "Retipea"
+   #define STR0004  "Abandona"
+   #define STR0005  "   El  objetivo  de este programa es calcular los saldos de las cuentas"
+   #define STR0006  "sint‚ticas.  Esta  rutina  debe  ser ejecutada siempre que hayan nuevos"
+   #define STR0007  "asientos contables en el per¡odo contable que ser  procesado.  Se deben"
+   #define STR0008  "informar las fechas de referencia de los per¡odos deseados."
+   #define STR0009  "Presione cualquier tecla para continuar..."
+   #define STR0010  "Seleccionando registros..."
+#ELSE
+	#IFDEF ENGLISH
+	   #define STR0001  "Update of Syntheticals"
+	   #define STR0002  "O.K.   "
+	   #define STR0003  "Retype  "
+	   #define STR0004  "Quit   "
+	   #define STR0005  "  This program has the purpose of calculating the balances of Synthe- "
+	   #define STR0006  "tical Accounts. This routine must be executed at each new Ledger Entry "
+	   #define STR0007  "in the accounting period to be processed. The reference dates of the   "
+	   #define STR0008  "periods desired must be informed.               "
+	   #define STR0009  "Press any key to continue...       "
+	   #define STR0010  "Selecting records...      "
+	#ELSE
+	   #define STR0001  "Atualiza‡„o de Sint‚ticas"
+	   #define STR0002  "Confirma"
+	   #define STR0003  "Redigita"
+	   #define STR0004  "Abandona"
+	   #define STR0005  "  Este programa  tem  como  objetivo  calcular  os  saldos  das  contas"
+	   #define STR0006  "sint‚ticas. Esta rotina dever  ser executada sempre que houverem  novos"
+	   #define STR0007  "lan‡amentos cont beis no per¡odo cont bil a ser processado. Dever„o ser"
+	   #define STR0008  "informadas as datas de referˆncia dos per¡odos desejados."
+	   #define STR0009  "Pressione qualquer tecla para continuar..."
+	   #define STR0010  "Selecionando registros..."         
+	#ENDIF
+#ENDIF

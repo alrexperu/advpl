@@ -1,0 +1,36 @@
+#IFDEF SPANISH
+         #define STR0001  "Diferencias de Stock"
+         #define STR0002  "Este informe tiene el objetivo de alertar el usuario cuanto al problema"
+         #define STR0003  "de la inconsistencia de los saldos.  Debe ser emitido siempre que hayan"
+         #define STR0004  "dudas cuanto a la integridad de los saldos en stock.              "
+         #define STR0005  "  "
+         #define STR0006  "Administraci¢n"
+         #define STR0007  "REGISTRO(S)"
+         #define STR0008  "C‡DIGO          DESCRIPCI‡N                    TP GRUP DEP  SALDO CALCULADO          SALDO EN        DIFERENCIA"
+         #define STR0009  "                                                            EN ESTE MOMENTO        EL ARCHIVO                  "
+         #define STR0010  "No fue encontrado ningun °tem con diferencia en el stock."
+#ELSE
+   #IFDEF ENGLISH
+         #define STR0001  "Inventory Divergences"
+         #define STR0002  "This report has the purpose of alerting the user about the problem"
+         #define STR0003  "of inconsistence of balances. It must be issued each time doubt   "
+         #define STR0004  "on the integrity of stock balances arise.                         "
+         #define STR0005  "Z.Form "
+         #define STR0006  "Management   "
+         #define STR0007  "RECORD  (S)"
+         #define STR0008  "CODE            DESCRIPTION                    KD GROUP WRH  BALANCE CALCULAT.        BALANCE          DIVERGENCE"
+         #define STR0009  "                                                              THIS MOMENT             IN FILE                  "
+         #define STR0010  "No item was found with inventory divergence.           "
+   #ELSE
+         #define STR0001  "Diferencas de Estoque"
+         #define STR0002  "Este relatorio tem o objetivo de alertar o usuario para o problema"
+         #define STR0003  "da inconsistencia dos saldos. Deve ser emitido sempre que surgirem"
+         #define STR0004  "duvidas quanto `a integridade dos saldos em estoque.              "
+         #define STR0005  "Zebrado"
+         #define STR0006  "Administracao"
+         #define STR0007  "REGISTRO(S)"
+         #define STR0008  "CODIGO          DESCRICAO                      TP GRUP ALM  SALDO CALCULADO          SALDO NO         DIFERENCA"
+         #define STR0009  "                                                              NESTE MOMENTO           ARQUIVO                  "
+         #define STR0010  "Nao foi encontrado nenhum item com diferenca no estoque."
+   #ENDIF
+#ENDIF

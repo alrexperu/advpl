@@ -1,0 +1,36 @@
+#IFDEF SPANISH
+   #define STR0001  "Confirma"
+   #define STR0002  "Retipea "	  
+	#define STR0003  "Salir   "
+   #define STR0004  "Par metros"
+   #define STR0005  "C lculo de Depreciaci¢n y Correcci¢n Monetaria"
+   #define STR0006  "El objetivo de este progrma es calcular Correcci¢n Monetaria y"
+   #define STR0007  "Depreciaci¢n de Activos Inmovilizados."
+   #define STR0008  "éltimo c lculo en :"
+   #define STR0009  "Tasa Referencia "
+   #define STR0010  "Moneda del Activo: "
+#ELSE
+	#IFDEF ENGLISH
+                #define STR0001  "O.K.    "
+                #define STR0002  "Retype  "       
+                #define STR0003  "Quit    "
+                #define STR0004  "Parameters"
+                #define STR0005  "Depreciat.and Monetary Adjustm.Calculation "
+                #define STR0006  "This program has the purpose of calculating the M.Adjustement  "
+                #define STR0007  "and Depreciation of Fixed Assets   "
+                #define STR0008  "Last assessment in:"
+                #define STR0009  "Reference Rate  "
+                #define STR0010  "Asset Currency: "
+	#ELSE
+		#define STR0001  "Confirma"
+		#define STR0002  "Redigita"	  
+		#define STR0003  "Abandona"
+		#define STR0004  "Parametros"
+		#define STR0005  "C lculo de Deprecia‡Æo e Corre‡Æo Monet ria"
+		#define STR0006  "Este programa tem o objetivo de calcular a Corre‡„o Monet ria e"
+		#define STR0007  "Deprecia‡„o de Ativos Imobilizados."
+		#define STR0008  "Ultimo calculo em :"
+		#define STR0009  "Taxa Referencia "
+		#define STR0010  "Moeda do Ativo: "		
+	#ENDIF
+#ENDIF		

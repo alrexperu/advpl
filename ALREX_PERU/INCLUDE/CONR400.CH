@@ -1,0 +1,36 @@
+#IFDEF SPANISH
+   #define STR0001  "Emisi¢n de la Relaci¢n de Ötems Contables."
+   #define STR0002  "Ser  impreso de acuerdo con los par metros solicitados" 
+   #define STR0003  "por el usuario."
+   #define STR0004  "C¢digo"
+   #define STR0005  "Descripci¢n"
+   #define STR0006  " "
+   #define STR0007  "Administraci¢n"
+   #define STR0008  "Relaci¢n de Ötems Contables"
+   #define STR0009  "CODIGO     D E S C R I P C I O N"
+   #define STR0010  "***** CANCELADO POR EL OPERADOR *****"
+#ELSE
+	#IFDEF ENGLISH
+		#define STR0001  "Issue of a List of Accounting Items.  "
+		#define STR0002  "Will be printed according to the parameters selected by the"
+		#define STR0003  "User.   "
+		#define STR0004  "Code  "
+		#define STR0005  "Descript."
+		#define STR0006  "Z. Form"
+		#define STR0007  "Management   "
+		#define STR0008  "List of Accounting Items  "
+		#define STR0009  "CODE       D E S C R I P T I O N"
+		#define STR0010  "*****  CANCELLED BY OPERATOR  *****"
+	#ELSE
+		#define STR0001  "Emiss„o da Rela‡„o de Itens Contabeis."
+		#define STR0002  "Ser  impresso de acordo com os parƒmetros solicitados pelo"
+		#define STR0003  "usu rio."
+		#define STR0004  "C¢digo"
+		#define STR0005  "Descri‡„o"
+		#define STR0006  "Zebrado"
+		#define STR0007  "Administracao"
+		#define STR0008  "Relacao de Itens Contabeis"
+		#define STR0009  "CODIGO     D E S C R I C A O"
+		#define STR0010  "***** CANCELADO PELO OPERADOR *****"
+	#ENDIF
+#ENDIF	

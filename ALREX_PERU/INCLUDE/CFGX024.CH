@@ -1,0 +1,51 @@
+#IFDEF SPANISH
+   #define STR0001  "Edici¢n de las Actas de Apertura y Cierre"
+   #define STR0002  "referentes "
+   #define STR0003  "Nuevo"
+   #define STR0004  "Restaura"
+   #define STR0005  "Cancelar"
+   #define STR0006  "Actas  | *.TRM"
+   #define STR0007  "Seleccione archivo "
+   #define STR0008  "­Archivo ya existe!"
+   #define STR0009  "Actas  | "+cFile
+   #define STR0010  "Actas de Apertura y Cierre"
+   #define STR0011  "Archivo ya existe, ¨graba por cima?"
+   #define STR0012  "¨Confirma Grabaci¢n?"
+   #define STR0013  "­Archivo no existe !"
+   #define STR0014  "SÖ"
+   #define STR0015  "NO"
+#ELSE
+   #IFDEF ENGLISH
+         #define STR0001  "Issue of the Opening/Closing Terms"
+         #define STR0002  "Refer to "
+         #define STR0003  "New"
+         #define STR0004  "Restore"
+         #define STR0005  "Quit  "
+         #define STR0006  "Terms  | *.TRM"
+         #define STR0007  "Select File "
+         #define STR0008  "File already Exists"
+         #define STR0009  "Terms  | "+cFile
+         #define STR0010  "Opening and Closing Terms"
+         #define STR0011  "File exists, overwrite it?   "
+         #define STR0012  "About Recording?  "
+         #define STR0013  "File not exists !!!   "
+         #define STR0014  "YES"
+         #define STR0015  "NO"
+   #ELSE
+         #define STR0001  "Edi‡„o dos Termos de Abertura/Encerramento"
+         #define STR0002  "referentes "
+         #define STR0003  "Novo"
+         #define STR0004  "Restaura"
+         #define STR0005  "Cancelar"
+         #define STR0006  "Termos | *.TRM"
+         #define STR0007  "Selecione arquivo "
+         #define STR0008  "Arquivo j  existe !!!"
+         #define STR0009  "Termos | "+cFile
+         #define STR0010  "Termos de Abertura e Encerramento"
+         #define STR0011  "Arquivo j  existe grava por cima"
+         #define STR0012  "Confirma Grava‡Æo ?"
+         #define STR0013  "Arquivo nÆo existe !!!"
+         #define STR0014  "SIM"
+         #define STR0015  "NAO"
+   #ENDIF
+#ENDIF

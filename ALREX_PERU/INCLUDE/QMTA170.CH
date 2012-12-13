@@ -1,0 +1,36 @@
+#IFDEF SPANISH
+			#define STR0001  "B&uscar  "
+			#define STR0002  "Visualizar"
+			#define STR0003  "Incluir"
+			#define STR0004  "Modificar"
+			#define STR0005  "Borrar "
+			#define STR0006  "Registros de Mantenimiento"
+			#define STR0010  "Sugerimos que se haga un registro de calibraci¢n que corresponda a este mantenimiento"
+			#define STR0011  "ATENCION"
+			#define STR0012  "Texto"
+			#define STR0013  "Instrumento"
+#ELSE
+	#IFDEF ENGLISH
+                        #define STR0001  "Search   "
+                        #define STR0002  "View      "
+                        #define STR0003  "Insert "
+                        #define STR0004  "Edit   "
+                        #define STR0005  "Delete "
+                        #define STR0006  "Maintenance Records    "
+                        #define STR0010  "We suggest you to make a calibration record corresponding to this maintenance         "
+                        #define STR0011  "ATTENTION"
+                        #define STR0012  "Text "
+                        #define STR0013  "Instrument "
+	#ELSE
+			#define STR0001  "Pesquisar"
+			#define STR0002  "Visualizar"
+			#define STR0003  "Incluir"
+			#define STR0004  "Alterar"
+			#define STR0005  "Excluir"
+			#define STR0006  "Registros de Manuten‡„o"
+			#define STR0010  "Sugerimos que seja efetuado um registro de calibra‡„o correspondente a esta manuten‡„o"
+			#define STR0011  "ATEN€ŽO"
+			#define STR0012  "Texto"
+			#define STR0013  "Instrumento"
+	#ENDIF
+#ENDIF

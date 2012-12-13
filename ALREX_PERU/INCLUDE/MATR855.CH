@@ -1,0 +1,36 @@
+#IFDEF SPANISH
+         #define STR0001  "Carga Acumulativa - Sint‚tica"
+         #define STR0002  "Este programa imprimir  la Carga Acumulativa - Sint‚tica."
+         #define STR0003  "Los valores referentes a las horas est n convertidos conforme"
+         #define STR0004  "el par metro MV_TPHR, (C)entesimales o (N)ormales."
+         #define STR0005  " "
+         #define STR0006  "Administraci¢n"
+         #define STR0007  "CENTRO     CENTRO DE   DESCRIPCIàN                          HORAS   HORAS  (%)"
+         #define STR0008  "COSTO      TRABAJO                                         UTILIZ.  UTILES UTIL."
+         #define STR0009  "CANCELADO POR EL OPERADOR"
+         #define STR0010  "TOTAL CENTRO COSTO: "
+#ELSE
+   #IFDEF ENGLISH
+         #define STR0001  "Accumulative Load - Synthetical"
+         #define STR0002  "This program will print the Synthetical Accumulative Load."
+         #define STR0003  "The values referring to hours are converted according"
+         #define STR0004  "to parameter MV_TPHR, (C)entesimals or (N)ormal."
+         #define STR0005  "Z.Form"
+         #define STR0006  "Management"
+         #define STR0007  "COST     WORK   DESCRIPTION                         HOURS   WORKING(%)"
+         #define STR0008  "CENTER   CENTER                                     USED    HOURS USED"
+         #define STR0009  "CANCELLED BY OPERATOR"
+         #define STR0010  "TOTAL COST CENTER: "
+   #ELSE
+         #define STR0001  "Carga Acumulativa - Sintetica"
+         #define STR0002  "Este programa ira imprimir Carga Acumulativa Sint‚tica."
+         #define STR0003  "Os valores referentes a horas estao convertidos conforme"
+         #define STR0004  "o parƒmetro MV_TPHR, (C)entesimais ou (N)ormais."
+         #define STR0005  "Zebrado"
+         #define STR0006  "Administracao"
+         #define STR0007  "CENTRO     CENTRO DE   DESCRICAO                            HORAS   HORAS  (%)"
+         #define STR0008  "DE CUSTO   TRABALHO                                        UTILIZ.  UTEIS UTIL."
+         #define STR0009  "CANCELADO PELO OPERADOR"
+         #define STR0010  "TOTAL CENTRO DE CUSTO: "
+   #ENDIF
+#ENDIF

@@ -1,0 +1,8 @@
+   #define STR0001  "Gera‡„o do arquivo de FGTS e INSS"
+   #define STR0002  "Este programa gera arquivo de FGTS e INSS"
+   #define STR0003  "Confirma"
+   #define STR0004  "Redigita"
+   #define STR0005  "Abandona"
+   #define STR0006  "Gera‡„o do arquivo de FGTS e INSS"
+   #define STR0007  "Este programa gera arquivo de FGTS e INSS"
+   #define STR0008  "Selecionando Registros..."

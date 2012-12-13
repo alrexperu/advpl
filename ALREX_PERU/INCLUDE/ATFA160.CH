@@ -1,0 +1,36 @@
+#IFDEF SPANISH
+	#define STR0001  "Confirma"
+	#define STR0002  "Retipea "
+	#define STR0003  "Salir "
+	#define STR0004  "Buscar "
+	#define STR0005  "Visualizar"
+	#define STR0006  "Incluir"
+	#define STR0007  "Modificar "
+	#define STR0008  "Descripci¢n Estendida"
+	#define STR0009  "Descripci¢n Estendida"
+	#define STR0010  "¨Cu nto a la Grabaci¢n?"
+#ELSE
+	#IFDEF ENGLISH
+                #define STR0001  "O.K.    "
+                #define STR0002  "Retype  "
+                #define STR0003  "Cancel  "
+                #define STR0004  "Search   "
+                #define STR0005  "View      "
+                #define STR0006  "Insert "
+                #define STR0007  "Edit   "
+                #define STR0008  "Extended Description"
+                #define STR0009  "Extended Description"
+                #define STR0010  "About Saving?       "
+	#ELSE
+		#define STR0001  "Confirma"
+		#define STR0002  "Redigita"
+		#define STR0003  "Abandona"
+		#define STR0004  "Pesquisar"
+		#define STR0005  "Visualizar"
+		#define STR0006  "Incluir"
+		#define STR0007  "Alterar"
+		#define STR0008  "Descri‡Æo Estendida"
+		#define STR0009  "Descri‡Æo Estendida"
+		#define STR0010  "Quanto a grava‡„o ? "		
+	#ENDIF
+#ENDIF	

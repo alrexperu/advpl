@@ -1,0 +1,36 @@
+#IFDEF SPANISH
+         #define STR0001  "Costo de Entrada"
+         #define STR0002  "El objetivo de este programa es recalcular el costo de Entrada   "
+         #define STR0003  "de las mercader¡as tipeadas cuando del recibo de materiales.     "
+         #define STR0004  "Esta rutina ser  ejecutada en mo-"
+         #define STR0005  "do compartido,  conforme indicado"
+         #define STR0006  "por el par metro MV_CUSTEXC."
+         #define STR0007  "Los movimientos que ocurran durante"
+         #define STR0008  "el proceso pueden influir en el c lculo."
+         #define STR0009  "Atenci¢n"
+         #define STR0010  "¨Confirma Rec lculo Costo de Entrada?"
+#ELSE
+   #IFDEF ENGLISH
+         #define STR0001  "Inflow Cost    "
+         #define STR0002  "The purpose of this program is to calculate the Inflow Cost      "
+         #define STR0003  "of the Goods typed in during reception of material.                 "
+         #define STR0004  "This routine will be run in share    "
+         #define STR0005  "modality, as asigned by         "
+         #define STR0006  "MV_CUSTEXC parameter.    "
+         #define STR0007  "The activities that occur during the     "
+         #define STR0008  "process can affect the calculation   "
+         #define STR0009  "Attention"
+         #define STR0010  "Confirm Adjustment of Inflow Cost?"
+   #ELSE
+         #define STR0001  "Custo de Entrada"
+         #define STR0002  "Este programa tem como objetivo recalcular o custo de Entrada    "
+         #define STR0003  "das mercadorias digitadas no recebimento de materiais.             "
+         #define STR0004  "Esta rotina ser  executada em modo"
+         #define STR0005  "compartilhado , conforme indicado"
+         #define STR0006  "pelo parƒmetro MV_CUSTEXC."
+         #define STR0007  "As movimenta‡”es que ocorrerem durante"
+         #define STR0008  "o processo podem influir no c lculo."
+         #define STR0009  "Aten‡„o"
+         #define STR0010  "Confirma Acerto Custo de Entrada ?"
+   #ENDIF
+#ENDIF

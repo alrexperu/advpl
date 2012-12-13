@@ -1,0 +1,36 @@
+#IFDEF SPANISH
+   #define STR0001  "Este programa emitir  la relaci¢n de los Bienes   "
+   #define STR0002  "que ya fueron totalmente depreciados."
+   #define STR0003  "Bienes Depreciados"
+   #define STR0004  "Saldos Depreciados por Bienes"
+   #define STR0005  "C¢digo  Descripci¢n"
+   #define STR0006  "C¢digo         Descripci¢n"
+   #define STR0007  "C¢digo     Ötem Descripci¢n"
+   #define STR0008  "                                   Correc. Acumulada    Depr Acumulada  Corr Depr Acumul"
+   #define STR0009  "CANCELADO POR EL OPERADOR"
+   #define STR0010  "T O T A L E S"
+#ELSE
+	#IFDEF ENGLISH
+           #define STR0001  "This will print a list on the Assets that  "
+           #define STR0002  "were completely depreciated"
+           #define STR0003  "Depreciated Assets"         
+           #define STR0004  "Depreciated Balances per Asset"
+           #define STR0005  "Code    Descript."
+           #define STR0006  "Code           Descript "
+           #define STR0007  "Code       Item Descript."
+           #define STR0008  "                                  Accumulate Adjustm   Accumulated Depr Accum.Depr.Adjust"
+           #define STR0009  "CANCELLED BY OPERATOR  "
+           #define STR0010  "T O T A L S"
+	#ELSE
+	   #define STR0001  "Este programa ir  emitir a rela‡Æo dos Bens que j "
+	   #define STR0002  "foram totalmente depreciados"
+	   #define STR0003  "Bens Depreciados"
+	   #define STR0004  "Saldos Depreciados por Bens"
+	   #define STR0005  "Codigo  Descricao"
+	   #define STR0006  "Codigo         Descricao"
+	   #define STR0007  "Codigo     Item Descricao"
+	   #define STR0008  "                                  Correcao Acumulada    Depr Acumulada  Corr Depr Acumul"
+	   #define STR0009  "CANCELADO PELO OPERADOR"
+	   #define STR0010  "T O T A I S"	
+	#ENDIF
+#ENDIF		

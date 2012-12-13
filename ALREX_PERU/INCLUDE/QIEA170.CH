@@ -1,0 +1,36 @@
+#IFDEF SPANISH
+         #define STR0001  "Confirma"
+         #define STR0002  "Retipea "
+         #define STR0003  "Salir   "
+         #define STR0004  "B&uscar  "
+         #define STR0005  "Visualizar"
+         #define STR0006  "Incluir"
+         #define STR0007  "Modificar"
+         #define STR0008  "Borrar "
+         #define STR0009  "Criterios Skip-Lote"
+         #define STR0010  "¨Cu nto al Borrar?"
+#ELSE
+   #IFDEF ENGLISH
+         #define STR0001  "Confirma"
+         #define STR0002  "Redigita"
+         #define STR0003  "Abandona"
+         #define STR0004  "Pesquisar"
+         #define STR0005  "Visualizar"
+         #define STR0006  "Incluir"
+         #define STR0007  "Alterar"
+         #define STR0008  "Excluir"
+         #define STR0009  "Crit‚rios Skip-Lote"
+         #define STR0010  "Quanto … exclus„o?"
+   #ELSE
+         #define STR0001  "Confirma"
+         #define STR0002  "Redigita"
+         #define STR0003  "Abandona"
+         #define STR0004  "Pesquisar"
+         #define STR0005  "Visualizar"
+         #define STR0006  "Incluir"
+         #define STR0007  "Alterar"
+         #define STR0008  "Excluir"
+         #define STR0009  "Crit‚rios Skip-Lote"
+         #define STR0010  "Quanto … exclus„o?"
+   #ENDIF
+#ENDIF

@@ -1,0 +1,36 @@
+#IFDEF SPANISH
+         #define STR0001  "bUscar    "
+         #define STR0002  "Visualizar"
+         #define STR0003  "Incluir"
+         #define STR0004  "Modificar"
+         #define STR0005  "Borrar "
+         #define STR0006  "Ruta de Operaciones"
+         #define STR0007  "&C¢digo"
+         #define STR0008  "&Producto"
+         #define STR0009  "&Ruta Similar"
+         #define STR0010  "Recursos Alternativos / Secundarios"
+#ELSE
+   #IFDEF ENGLISH
+         #define STR0001  "Search"
+         #define STR0002  "View"
+         #define STR0003  "Insert"
+         #define STR0004  "Edit  "
+         #define STR0005  "Delete"
+         #define STR0006  "Transactions Routine"
+         #define STR0007  "&Code"
+         #define STR0008  "&Product"
+         #define STR0009  "&Similar Routine"
+         #define STR0010  "Alternative/Secondary Resources  "
+   #ELSE
+         #define STR0001  "Pesquisar"
+         #define STR0002  "Visualizar"
+         #define STR0003  "Incluir"
+         #define STR0004  "Alterar"
+         #define STR0005  "Excluir"
+         #define STR0006  "Roteiro de Opera‡”es"
+         #define STR0007  "&C¢digo"
+         #define STR0008  "&Produto"
+         #define STR0009  "&Roteiro Similar"
+         #define STR0010  "Recursos Alternativos / Secund rios"
+   #ENDIF
+#ENDIF

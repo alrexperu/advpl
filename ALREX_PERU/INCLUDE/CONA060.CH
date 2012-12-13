@@ -1,0 +1,36 @@
+#IFDEF SPANISH
+   #define STR0001  "Abandona"
+   #define STR0002  "Confirma"
+   #define STR0003  "bUscar    "
+   #define STR0004  "Visualizar"
+   #define STR0005  "Incluir"
+   #define STR0006  "Modificar"
+   #define STR0007  "Borrar "
+   #define STR0008  "Actualizaci¢n Centros de Costos"
+   #define STR0009  "Centro de Costo "
+   #define STR0010  "®En relaci¢n al Borrado?    "
+#ELSE
+     #IFDEF ENGLISH
+        #define STR0001  "Quit  "
+        #define STR0002  "O.K.  "
+        #define STR0003  "Search   "
+        #define STR0004  "View     "
+        #define STR0005  "Insert "
+        #define STR0006  "Edit   "
+        #define STR0007  "Delete  "
+        #define STR0008  "Updating of Cost Centers     "
+        #define STR0009  "Cost Centers    "
+        #define STR0010  "About Deleting?   "
+    #ELSE
+   	#define STR0001  "Abandona"
+   	#define STR0002  "Confirma"
+   	#define STR0003  "Pesquisar"
+   	#define STR0004  "Visualizar"
+   	#define STR0005  "Incluir"
+   	#define STR0006  "Alterar"
+   	#define STR0007  "Excluir"
+   	#define STR0008  "Atualizaá∆o de Centros de Custo"
+   	#define STR0009  "Centros de Custo"
+   	#define STR0010  "Quanto Ö exclus∆o?"
+   #ENDIF
+#ENDIF

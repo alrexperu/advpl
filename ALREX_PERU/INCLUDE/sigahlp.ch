@@ -1,0 +1,78 @@
+#ifdef SPANISH
+	#define STR0001  "Bloquea archivo  de items  con el  mismo codigo.        "
+	#define STR0002  "Verifica si existe un codigo en un archivo seleccionado."
+	#define STR0003  "Bloquea textos que comienzan con espacio o que tengan intervalos de mas de un espacio entre palabras."
+	#define STR0004  "Verifica si el contenido de la variable tipeada pertenece a una tabla."
+	#define STR0005  "Verifica si la variable digitada esta entre dos limites."
+	#define STR0006  "Aplica la formula de validez del Reg.Fiscal."
+	#define STR0007  "Bloquea la entrada de campos vacios"
+	#define STR0008  "Permite el paso de campos vacios"
+	#define STR0009  "Bloquea la entrada de valores menores que cero"
+	#define STR0010  "Permite solamente valores mayores o iguales a cero"
+	#define STR0011  "Este campo no tiene un criterio "
+	#define STR0012  "explicito de validez."
+	#define STR0013  "Tipo "
+	#define STR0014  " Tamaño "
+	#define STR0015  " Decimales "
+	#define STR0016  "  Uso "
+	#define STR0017  "Oblig"
+	#define STR0018  "Funcion:"
+	#define STR0019  "Validacion"
+	#define STR0020  "Libre"
+	#define STR0021  'Asistente'
+	#define STR0022  'Problema'
+	#define STR0023  'Solucion'
+	#define STR0024  'Help no existe'
+#else
+	#ifdef ENGLISH
+		#define STR0001  "Block Items registration with the same Code"
+		#define STR0002  "Check If the Code already exists in the Selected File"
+		#define STR0003  "Block Texts that start by space or with intervals of more than one space between words"
+		#define STR0004  "Check If the content of the variable typed belongs to a Table"
+		#define STR0005  "Check If the variable typed is between two delimiters"
+		#define STR0006  "Apply the Formula of FTR Validation"
+		#define STR0007  "Block entry of empty fields"
+		#define STR0008  "Allow the empty fields"
+		#define STR0009  "Block the entry of values below zero"
+		#define STR0010  "Allow only values greater or equal to zero"
+		#define STR0011  "This field does not have a clear"
+		#define STR0012  "Validation Criteria."
+		#define STR0013  "Type "
+		#define STR0014  " Size "
+		#define STR0015  " Decimals "
+		#define STR0016  "  Use "
+		#define STR0017  "Comp."
+		#define STR0018  "Funct.:"
+		#define STR0019  "Validation"
+		#define STR0020  "Free"
+		#define STR0021  "Assistant"
+		#define STR0022  "Problem"
+		#define STR0023  "Solution"
+		#define STR0024  "Help does not exist"
+	#else
+		#define STR0001  "Bloqueia cadastramento de itens com o mesmo codigo"
+		#define STR0002  "VerIfica se um codigo existe em um arquivo selecionado"
+		#define STR0003  "Bloqueia textos que comecem por espa‡o ou que tenham intervalos de mais de um espa‡o entre palavras"
+		#define STR0004  "VerIfica se o conteudo da variavel digitada pertence a uma tabela"
+		#define STR0005  "VerIfica se a variavel digitada esta'entre dois limitadores"
+		#define STR0006  "Aplica a formula de validacao do CGC"
+		#define STR0007  "Bloqueia a entrada de campos vazios"
+		#define STR0008  "Permite a passagem de campos vazios"
+		#define STR0009  "Bloqueia a entrada de valores menores que zero"
+		#define STR0010  "Permite apenas valores maiores ou iguais a zero"
+		#define STR0011  "Este campo nao possui um crit‚rio "
+		#define STR0012  "explicito de valida‡„o."
+		#define STR0013  "Tipo "
+		#define STR0014  " Tamanho "
+		#define STR0015  " Decimais "
+		#define STR0016  "  Uso "
+		#define STR0017  "Obrig"
+		#define STR0018  "Fun‡„o:"
+		#define STR0019  "Valida‡„o"
+		#define STR0020  "Livre"
+		#define STR0021  'Assistente'
+		#define STR0022  'Problema'
+		#define STR0023  'Solucao'
+		#define STR0024  'Help nao existe'
+	#endif
+#endif

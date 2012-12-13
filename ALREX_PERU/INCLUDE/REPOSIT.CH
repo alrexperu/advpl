@@ -1,0 +1,36 @@
+#IFDEF SPANISH
+   #define STR0001  "Erro creando Dep¢sito"
+   #define STR0002  "Atenci¢n"
+   #define STR0003  "Erro Abriendo Dep¢sito"
+   #define STR0004  "Archivo "
+   #define STR0005  " no existe."
+   #define STR0006  "Erro abrindo archivo: "
+   #define STR0007  "Entrada "
+   #define STR0008  " ya existe. ®Regraba?"
+   #define STR0009  "Erro Creando archivo temporario."
+   #define STR0010  "Erro creando archivo: "
+#ELSE
+	#IFDEF ENGLISH
+      #define STR0001  "Erro Criando Reposit¢rio"
+      #define STR0002  "Atená∆o"
+      #define STR0003  "Erro Abrindo Reposit¢rio"
+      #define STR0004  "Arquivo "
+      #define STR0005  " n∆o existe."
+      #define STR0006  "Erro abrindo arquivo: "
+      #define STR0007  "Entrada "
+      #define STR0008  " j† existe, Regrava?"
+      #define STR0009  "Erro Criando arquivo tempor†rio."
+      #define STR0010  "Erro criando arquivo: "
+	#ELSE
+      #define STR0001  "Erro Criando Reposit¢rio"
+      #define STR0002  "Atená∆o"
+      #define STR0003  "Erro Abrindo Reposit¢rio"
+      #define STR0004  "Arquivo "
+      #define STR0005  " n∆o existe."
+      #define STR0006  "Erro abrindo arquivo: "
+      #define STR0007  "Entrada "
+      #define STR0008  " j† existe, Regrava?"
+      #define STR0009  "Erro Criando arquivo tempor†rio."
+      #define STR0010  "Erro criando arquivo: "
+	#ENDIF
+#ENDIF

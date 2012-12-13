@@ -1,0 +1,36 @@
+#IFDEF SPANISH
+	#define STR0001  "El objetivo de este programa es imprimir los movimientos de las inver-"
+	#define STR0002  "siones financieras, de acuerdo con los par metos solicitados."
+	#define STR0003  "Relaci¢n de Cierres de Inversiones Financieras"
+	#define STR0005  " "
+	#define STR0006  "Administraci¢n"
+	#define STR0007  "CANCELADO POR EL OPERADOR"
+	#define STR0008  "                 Datos de la Inversi¢n                                                                                      Movimiento  "
+	#define STR0009  "N£mero    Instituci¢n          Mod Fc.Tipeada      Valor Nominal Modalidad  Bco Age.  Cuenta     Tip Mot Historial                                      Vlr Retirado      Impuestos        Inter‚s  Vlr Creditado Situaci¢n"
+	#define STR0010  "Total General"
+	#define STR0011  "CANCEL."
+#ELSE
+	#IFDEF ENGLISH
+		#define STR0001  "This program has the purpose of printing the financial investment    "
+		#define STR0002  "activities, according to parameters requested.        "
+		#define STR0003  "Report on Financial Investment Write-offs "
+		#define STR0005  "Z.Form "
+		#define STR0006  "Management   "
+		#define STR0007  "CANCELLED BY OPERATOR  "
+		#define STR0008  "                  Data on Investment                                                                                        Transaction "
+		#define STR0009  "Number    Institution          Mod Typing Dt.      Nominal Value Class      Bnk Age.  Accnt      Hisoty of Transac.Type                                Redemp. Value          Taxes      Interests  Credited Val. Situat. "
+		#define STR0010  "Total Gener"
+		#define STR0011  "CANCELLED"
+	#ELSE
+		#define STR0001  "Este programa tem como objetivo imprimir as movimentacoes das aplica-"
+		#define STR0002  "coes financeiras, conforme os parametros solicitados. "
+		#define STR0003  "Rela‡ao de Baixas de Aplicacoes Financeira"
+		#define STR0005  "Zebrado"
+		#define STR0006  "Administracao"
+		#define STR0007  "CANCELADO PELO OPERADOR"
+		#define STR0008  "                  Dados da Aplicacao                                                                                        Movimentacao"
+		#define STR0009  "Numero    Instituicao          Mod Dt.Digit        Valor Nominal Natureza   Bco Age.  Conta      Tip Mot Historico                                     Vlr Resgatado       Impostos          Juros  Vlr Creditado Situacao"
+		#define STR0010  "Total Geral"
+		#define STR0011  "CANCEL."
+	#ENDIF
+#ENDIF

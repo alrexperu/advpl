@@ -1,0 +1,36 @@
+#IFDEF SPANISH
+   #define STR0001  "Relaci¢n de Clientes"
+   #define STR0002  "Emisi¢n del Registro de Clientes"
+   #define STR0003  "Imprimir   los datos de los clientes, de "
+   #define STR0004  "acuerdo con la configuraci¢n del usuario. "
+   #define STR0005  ""
+   #define STR0006  "Administraci¢n"
+   #define STR0007  "RELACION COMPLETA DEL ARCHIVO DE CLIENTES "
+   #define STR0008  " Por C¢digo         "
+   #define STR0009  " Alfab‚tica         "
+   #define STR0010  " Por CUIT           "
+#ELSE
+   #IFDEF ENGLISH
+         #define STR0001  "Customer List      "
+         #define STR0002  "Issue of register of Customers "
+         #define STR0003  "Will print data on Customers ,according "
+         #define STR0004  "to the User configuration.              "
+         #define STR0005  "Z. Form"
+         #define STR0006  "Management   "
+         #define STR0007  "DETAILED LIST OF CUSTOMER'S REGISTER    "
+         #define STR0008  " Per Code           "
+         #define STR0009  " Per Name           "
+         #define STR0010  " Per Fed.Tax Regis."        
+   #ELSE
+         #define STR0001  "Relacao de clientes"
+         #define STR0002  "Emissao do Cadastro de Clientes"
+         #define STR0003  "Ira imprimir os dados dos clientes      "
+         #define STR0004  "de acordo com a configuracao do usuario."
+         #define STR0005  "Zebrado"
+         #define STR0006  "Administracao"
+         #define STR0007  "RELACAO COMPLETA DO CADASTRO DE CLIENTES"
+         #define STR0008  " Por Codigo         "
+         #define STR0009  " Alfabetica         "
+         #define STR0010  " Por CGC           "
+   #ENDIF
+#ENDIF

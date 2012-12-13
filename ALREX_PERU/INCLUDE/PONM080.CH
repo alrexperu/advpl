@@ -1,0 +1,36 @@
+#IFDEF SPANISH
+         #define STR0001  'Cierre Banco de Horas'
+         #define STR0003  'El objetivo de este programa es computar los resultados o eventos'
+         #define STR0004  'finales del per¡odo para la Compensaci¢n o Pago de Horas.'
+         #define STR0005  'Confirma'
+         #define STR0006  'Retipea'
+         #define STR0007  'Salir'
+         #define STR0008  'Cierre Banco Horas '
+         #define STR0011  'Haciendo Cierre Mensual ...'
+         #define STR0012  'Limpiando archivos ...'
+         #define STR0013  'Cerrando los Registros ...'
+#ELSE
+   #IFDEF ENGLISH
+         #define STR0001  'Hours Bank Closing       '
+         #define STR0003  'This program has the porpose of get the score or final Events'
+         #define STR0004  'of the period to the Compensation or Payment of Hours.     '
+         #define STR0005  'O.k.    '
+         #define STR0006  'Retype  '
+         #define STR0007  'Cancel  '
+         #define STR0008  'Hours Bank Closing     '
+         #define STR0011  'Running Monthly Closing...      '
+         #define STR0012  'Clearing Files...    '
+         #define STR0013  'Releasing Entries...    '
+   #ELSE
+         #define STR0001  'Fechamento Banco de Horas'
+         #define STR0003  'Este programa tem como objetivo apurar o resultado ou Eventos'
+         #define STR0004  'finais do periodo para a Compensa‡„o ou Pagamento de Horas.'
+         #define STR0005  'Confirma'
+         #define STR0006  'Redigita'
+         #define STR0007  'Abandona'
+         #define STR0008  'Fechamento Banco Horas '
+         #define STR0011  'Realizando fechamento mensal ...'
+         #define STR0012  'Limpando arquivos ...'
+         #define STR0013  'Baixando Lancamentos ...'
+   #ENDIF
+#ENDIF

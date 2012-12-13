@@ -1,0 +1,36 @@
+#IFDEF SPANISH
+	#define STR0001  "Abandona"
+   #define STR0002  "Confirma"
+   #define STR0003  "Import.Variaveis"
+   #define STR0004  "Quanto a Exclus„o?"
+   #define STR0005  "Import.Variaveis"
+   #define STR0006  "Campo          "
+   #define STR0007  "P.Inicio"
+   #define STR0008  "P.Final"
+   #define STR0009  "Conteudo"
+   #define STR0010  "Redigita"
+#ELSE
+   #IFDEF ENGLISH
+		#define STR0001  "Abandona"
+      #define STR0002  "Confirma"
+      #define STR0003  "Import.Variaveis"
+      #define STR0004  "Quanto a Exclus„o?"
+      #define STR0005  "Import.Variaveis"
+      #define STR0006  "Campo          "
+      #define STR0007  "P.Inicio"
+      #define STR0008  "P.Final"
+      #define STR0009  "Conteudo"
+	   #define STR0010  "Redigita"
+   #ELSE
+		#define STR0001  "Abandona"
+      #define STR0002  "Confirma"
+      #define STR0003  "Import.Variaveis"
+      #define STR0004  "Quanto a Exclus„o?"
+      #define STR0005  "Import.Variaveis"
+      #define STR0006  "Campo          "
+      #define STR0007  "P.Inicio"
+      #define STR0008  "P.Final"
+      #define STR0009  "Conteudo"
+	   #define STR0010  "Redigita"
+   #ENDIF
+#ENDIF
